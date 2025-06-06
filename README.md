@@ -14,14 +14,17 @@ Clean code following SOLID principles
 ## Project Structure
 
 backend/ — Node.js/Express API for email service logic
+
 frontend/ — React application to interact with the email service
+
 tests/ — Unit tests for backend service components
 
-## Setup Instructions
+## Setup Instructions(Prerequisites)
 
-Prerequisites
 Node.js (v16+ recommended)
+
 npm or yarn package manager
+
 Git
 
 ## Clone the Repository
