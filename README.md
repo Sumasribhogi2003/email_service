@@ -35,33 +35,21 @@ cd email_service
 
 --> Backend Setup
 
-Navigate to backend folder:
+Navigate to backend folder: cd backend
 
-cd backend
+Install dependencies: npm install
 
-Install dependencies:
-
-npm install
-
-Start the backend server:
-
-npm start
+Start the backend server: npm start
 
 The backend API will be running at http://localhost:3001.
 
 --> Frontend Setup
 
-Open a new terminal, navigate to frontend folder:
+Open a new terminal, navigate to frontend folder: cd frontend
 
-cd frontend
+Install dependencies: npm install
 
-Install dependencies:
-
-npm install
-
-Start the React app:
-
-npm start
+Start the React app: npm start
 
 The frontend will open in your default browser at http://localhost:3000.
 
@@ -69,9 +57,7 @@ The frontend will open in your default browser at http://localhost:3000.
 
 To run backend unit tests:
 
-From the backend folder, run:
-
-npm test
+From the backend folder, run: npm test
 
 Tests cover the core email sending logic, retry mechanism, fallback, and idempotency features.
 
