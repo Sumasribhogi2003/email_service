@@ -27,6 +27,7 @@ Git
 ## Clone the Repository
 
 git clone https://github.com/Sumasribhogi2003/email_service.git
+
 cd email_service
 
 --> Backend Setup
