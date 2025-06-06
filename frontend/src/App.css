@@ -1,0 +1,68 @@
+.App {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #333333;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1a202c;
+}
+
+button {
+  background-color: #2563eb; /* Blue */
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.4);
+}
+
+button:hover {
+  background-color: #1e40af; /* Darker Blue */
+  box-shadow: 0 6px 8px rgba(30, 64, 175, 0.5);
+}
+
+button:active {
+  background-color: #1e3a8a;
+}
+
+p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #4a5568;
+  min-height: 1.4em; 
+}
+
+.status {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #4a5568;
+  min-height: 1.4em;
+}
+
+.status.success {
+  color: #16a34a; 
+}
+
+.status.error {
+  color: #dc2626; 
+}
+
+.tick {
+  margin-left: 0.5rem;
+  color: #16a34a;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
